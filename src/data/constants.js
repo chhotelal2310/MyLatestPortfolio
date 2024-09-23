@@ -1,18 +1,12 @@
 export const Bio = {
   name: "Chhotelal Patel",
-  roles: [
-    "Full Stack Developer",
-     "UI/UX Designer",
-    "Programmer",
-  ],
+  roles: ["Frontend Web Developer","Backend  Developer", "UI/UX Designer", "Problem Solver"],
   description:
-    "Recent B. Tech graduate in Computer Science and Engineering From Chhatrapati Shahu Ji Maharaj Unversity Kanpur. With a strong foundation in software development, algorithms, and problem-solving.  I'm passionate about web development and data structures/algorithms.I am proficient in Java and C++. I have honed my skills as a full-stack developer, crafting scalable web applications using React.js, Redux, and Firebase. I am eager to continue my journey as a versatile full-stack developer, where I can combine my passion for technology with my commitment to continuous improvement",
-    
-  github: "https://github.com/ajaygupta20f",
-  resume:
-    "https://drive.google.com/file/d/1gcjMYqW250GSjB0svwJQJIXqXuGbRB8G/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/ajay-gupta-758a79204/",
+    "Recent B. Tech graduate in Computer Science and Engineering From Chhatrapati Shahu Ji Maharaj Unversity Kanpur. With a strong foundation in software development, algorithms, and problem-solving.  I'm passionate about web development and data structures and algorithms.I am proficient in Java and C++. I have honed my skills as a full-stack developer, crafting scalable web applications using React.js, Redux, and Firebase. I am eager to continue my journey as a versatile full-stack developer, where I can combine my passion for technology with my commitment to continuous improvement",
 
+  github: "https://github.com/chhotelal2310",
+  resume: "https://drive.google.com/file/d/1aNVQVevHmFadl1SY2A1W70L01_vF8lKA/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/chhotelal-patel-6106b0212/",
 };
 
 export const skills = [
@@ -29,11 +23,9 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      // {
-      //   name: "Next Js",
-      //   image:
-      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      // },
+
+
+      
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -72,16 +64,17 @@ export const skills = [
         image:
           "data:image/png;base64,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",
       },
-      
+
       {
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-      // {
-      //   name: "Postgresql",
-      //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      // },
+
+
+      
+
+
       {
         name: "MongoDB",
         image:
@@ -93,49 +86,28 @@ export const skills = [
       },
     ],
   },
-  // {
-  //   title: "Android",
-  //   skills: [
-  //     {
-  //       name: "Java",
-  //       image:
-  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-  //     },
-  //     {
-  //       name: "Kotlin",
-  //       image:
-  //         "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-  //     },
-  //     {
-  //       name: "XML",
-  //       image:
-  //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-  //     },
-  //     {
-  //       name: "Android Studio",
-  //       image:
-  //         "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-  //     },
-  //   ],
-  // },
+
+  
+  
+
+
   {
     title: "Others",
     skills: [
       {
         name: "Git",
-        image:
-          "https://book.git-scm.com/images/logos/logomark-black@2x.png",
+        image: "https://book.git-scm.com/images/logos/logomark-black@2x.png",
       },
       {
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      // {
-      //   name: "Docker",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      // },
+
+
+      
+
+
       {
         name: "Netlify",
         image:
@@ -156,132 +128,65 @@ export const skills = [
         image:
           "https://logowik.com/content/uploads/images/eclipse-ide-icon1888.logowik.com.webp",
       },
-      // {
-      //   name: "Figma",
-      //   image:
-      //     "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-      // },
+
+
     ],
   },
 ];
 
 export const experiences = [
-  // {
-  //   id: 0,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //   role: "DevOps & Fullstack Engineering Intern",
-  //   company: "Flipr Inovations Pvt. Ltd.",
-  //   date: "Aug 2023 - July 2023",
-  //   desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-  //   skills: [
-  //     "Docker",
-  //     "Terraform",
-  //     "AWS",
-  //     "EC2",
-  //     "Portainer",
-  //     "Nginx",
-  //     "JavaScript",
-  //     "TypeScript",
-  //     "Node Js",
-  //     " Next Js",
-  //   ],
-  //   doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  // },
+  
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyq7rG9Y9tkmDZLIzbnde7wd08wokqwaSAlA&s",
-    role: "Frontend Developer Intern",
-    company: "Oasis Infobyte",
-    date: "Sept 2023 - Nov 2023",
-    desc: "As a Frontend Developer Intern at Oasis Infobyte, you're responsible for assisting in the development and enhancement of the user interface (UI) for various web applications Gaining hands-on experience with modern frontend frameworks like ReactJS, improving your coding skills, and learning industry best practices",
-    skills: [
-     "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-  
+    img: "https://pbs.twimg.com/profile_images/1488865883971899395/REyymiRX_400x400.jpg",
+    role: "Software Intern",
+    company: "Mobzway Technologies",
+    date: "November 2023 - February 2023",
+    desc: "During Internship  I am Collaborated on 5+ RESTful APIs using NodeJs and MongoDB and Achieved 98% code coverage, reducing post-release bugs by 35% and testing websites also Designed 3 APIs for User management that takes user details and stores them in the MongoDB.",
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB"],
   },
+
   {
     id: 1,
-    img: "https://cdn.comparably.com/27579934/l/17407_logo_chegg.png",
-    role: "Tutor At Chegg India",
-    company: "Chegg India",
-    date: "Apr 2023 - July 2023",
-    desc: "As a Tutor at Chegg India, you play a crucial role in helping students succeed academically by providing expert guidance in the subject of Computer Science. Playing a vital role in students' educational journeys by providing timely and effective help, which can positively impact their academic performance.",
-   
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU4cslaxX449Nojlxyp_ZZyTKSdXgeU3LzKg&s",
+    role: "Web Development and Designing Intern",
+    company: "Oasis Infobyte",
+    date: "May 2023 - July 2023",
+    desc: "During my internship, I focused on improving User Interface design, prioritizing usability and accessibility and Integrated code coverage analysis into our test strategy, reducing bugs by 3 Percent and enhancing product quality and This experience reinforced my foundational skills and strategic understanding in web development.",
+    skills: ["HTML", "CSS", "Javascript"],
   },
-  // {
-  //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-  //   role: "Open Source Contributor ",
-  //   company: "GirlScript Summer of Code",
-  //   date: "May 2023 - Present",
-  //   desc: "Contributing to different open-source projects and learn from industry experts",
-  //   doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-  // },
-  // {
-  //   id: 3,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-  //   role: "Android Developer",
-  //   company: "DSC KIIT",
-  //   date: "Nov2021 - Present",
-  //   desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-  //   skills: [
-  //     "Leadership",
-  //     "Mobile Application Development",
-  //     "Kotlin",
-  //     "XML",
-  //     "Figma",
-  //   ],
-  // },
-  // {
-  //   id: 4,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-  //   role: "Android Developer Intern",
-  //   company: "Rudraksha Welffare Foundation",
-  //   date: "June 2021 - Oct 2021",
-  //   desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-  //   skills: [
-  //     "Android",
-  //     "Java",
-  //     "Kotlin",
-  //     "XML",
-  //     "Node Js",
-  //     "Cloud Firestore",
-  //     "Firebase",
-  //     "Figma",
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  // },
+ 
+
 ];
+
 
 export const education = [
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBsBVNyc-pd5A7XRKSyxbqYaQcHy3bPnMgdw&s",
     school: "Chhatrapati Shahu Ji Maharaj University  Kanpur",
-    date: "Nov 2020 -  Jun 2024",
+    date: "August 2020 - June 2024",
     grade: "7.10 CGPA",
-    desc: "Recent B. Tech graduate in Computer Science and Engineering From Chhatrapati Shahu Ji Maharaj University Kanpur. With a strong foundation in software development, algorithms, and problem-solving I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "Recent  I have done my bachelor's degree in Computer Science and Engineering From Chhatrapati Shahu Ji Maharaj University Kanpur. With a strong foundation in software development, algorithms, and problem-solving I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others where I am learning and working on exciting projects with a team of talented developers.",
     degree: "Bachelor of Technology - B.Tech, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: "https://static.educativ.net/monthly_2020_08/314860338_download(43).jpg.9e964ae672d5edf796228b66eec04d94.jpg",
-    school: "Tulsi Vidya Niketan Varanasi",
-    date: "Apr 2017 - MAy 2019",
-    grade: "81.2%",
-    desc: "I completed my class 12 high school education at Tulsi Vidya Niketan Varanasi, Class 12 Science students engage in a rigorous academic schedule, covering subjects like Physics, Chemistry, Mathematics (PCM)Practical experiments in Physics, Chemistry, and Biology are a significant part of the curriculum. Students develop hands-on skills, learn to operate scientific instruments",
-    degree: "Cbse(XII), PCM",
+    img: "https://content.jdmagicbox.com/comp/varanasi/u3/0542px542.x542.180914004549.z6u3/catalogue/vikas-intermediate-college-parmanandpur-varanasi-varanasi-colleges-djo0euqk2u.jpg",
+    school: "Vikas Intermediate College, Varanasi ",
+    date: "April 2017 - June 2019",
+    grade: "78.80%",
+    desc: "I completed my Intermediate education (XII) at  Vikas Intermediate College Varanasi , Class XII Science students engage in a rigorous academic schedule, covering subjects like Physics, Chemistry, Mathematics (PCM) Practical experiments in Physics, and Chemistry. Students develop hands-on skills, learn to operate scientific instruments",
+    degree: "UP BOARD (XII), PCM",
   },
   {
     id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0-nxeBOOgP6etp94aXJ0hXC1wsvyuagb8pA&s",
-    school: "Smt D.K.Inter College ,Jamalpur,Mirzapur",
-    date: "Apr 2015 - Jun 2017",
-    grade: "80.56%",
-    desc: "I completed my class 10 education at Smt D.K.Inter College ,Jamalpur,Mirzapur ,  Class 10 Science covers essential topics in Physics, Chemistry, and Biology. Students gain a broad understanding of fundamental principles like the laws of motion, chemical reactions, life processes, and environmental science",
-    degree: "Up(X), Science ",
+    img: "https://content.jdmagicbox.com/comp/varanasi/u3/0542px542.x542.180914004549.z6u3/catalogue/vikas-intermediate-college-parmanandpur-varanasi-varanasi-colleges-djo0euqk2u.jpg",
+    school: "Vikas Intermediate College, Varanasi",
+    date: "April 2015 - June 2017",
+    grade: "85.66%",
+    desc: "I completed my High Schhool education at Vikas Intermediate College Varanasi, Class X Science covers essential topics in Physics, Chemistry, and Biology. Students gain a broad understanding of fundamental principles like the laws of motion, chemical reactions, life processes, and environmental science",
+    degree: "UP BOARD (X), Science ",
   },
 ];
 
@@ -294,15 +199,7 @@ export const projects = [
       " CodePen clone, which is an online platform for front-end developers to write, share, and test HTML, CSS, and JavaScript code snippets in real time. This tool allows users to create(small projects), preview their work, and share it with others. \nAdmin Credentials: # Email: ajay@gmail.com #Password- Ajay@123, Employee Credentials:	#Email: ajay@Gmail.com	#Password- Ajay@123",
     image:
       "https://i.ytimg.com/vi/G9J-KcqcQYY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDahw0A8DZJftTSjKiW11wZyoM_AQ",
-    tags: [
-     "Html",
-      "Css",
-      "Redux",
-      "React Js",
-      "JavaScript",
-      "Firebase",
-    
-    ],
+    tags: ["Html", "Css", "Redux", "React Js", "JavaScript", "Firebase"],
     category: "web app",
     github: "https://github.com/ajaygupta20f/Codepen-Editors",
     webapp: "https://nimble-horse-21f982.netlify.app/home/auth",
@@ -313,26 +210,12 @@ export const projects = [
     date: "May 2024 - june 2024",
     description:
       " This project is an interactive digital canvas where users can draw, write, and interact with content just as they would on a physical whiteboard. Allow multiple users to collaborate on the same whiteboard in real-time, similar to a shared workspace.Users can save their whiteboard sessions as images or files and load them later to continue working.",
-    image:
-      "https://www.collaboard.app/hubfs/Collaboard_Insurance-1.png",
+    image: "https://www.collaboard.app/hubfs/Collaboard_Insurance-1.png",
     tags: ["Html", "Css", "JavaScript"],
     category: "web app",
     github: "https://github.com/ajaygupta20f/Marker-Boards",
     webapp: "https://clinquant-sunflower-e973b8.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Rishav Chanda",
-    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/rishavchanda/",
-    //   },
-    //   {
-    //     name: "Upasana Chaudhuri",
-    //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //     github: "https://github.com/upasana0710",
-    //   },
-    // ],
+
   },
   {
     id: 1,
@@ -342,14 +225,7 @@ export const projects = [
       "This clone allows users to browse, search, and watch movies and TV shows in a user-friendly interface.Users can sign up, log in, and manage their profiles, including setting up personalized preferences. Organize content into different genres and categories for easy browsing.",
     image:
       "https://miro.medium.com/v2/resize:fit:768/1*qnA3s5_4UHoO3sCp8WKNvw.jpeg",
-    tags: [
-      "Html",
-      "Css",
-      "Redux",
-      "React Js",
-      "JavaScript",
-      "Firebase",
-    ],
+    tags: ["Html", "Css", "Redux", "React Js", "JavaScript", "Firebase"],
     category: "web app",
     github: "https://github.com/ajaygupta20f/Movie-App",
     webapp: "https://profound-brioche-452adf.netlify.app/login",
@@ -364,8 +240,10 @@ export const projects = [
       "https://play-lh.googleusercontent.com/RZBpPWv8c3rsydlsLJpbwcUQRFBkvFhl-NLCXYdibdfI6lRxCf3FzQ9k4glpj1Hhlg=w526-h296-rw",
     tags: ["Html", "Css", "JavaScript", "React"],
     category: "web app",
-    github:"https://github.com/ajaygupta20f/Face-Time-App",
+    github: "https://github.com/ajaygupta20f/Face-Time-App",
     webapp: "https://vdclone-fd04f.web.app/login",
+
+
     // member: [
     //   {
     //     name: "Rishav Chanda",
@@ -380,8 +258,10 @@ export const projects = [
     //     github: "https://github.com/upasana0710",
     //   },
     // ],
+
+
   },
-     {
+  {
     id: 3,
     title: "Calculator",
     date: "Nov 2023 - Dec 2023",
@@ -389,11 +269,15 @@ export const projects = [
       " calculator project, which is a basic yet essential tool that performs arithmetic operations. This project typically includes a clean and intuitive user interface where users can input numbers and operations to perform calculations. Ensure the calculator works well on various screen sizes, from desktops to mobile devices.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsA_9BIbtAc-kid285gkJ0N4NR-oB8_kztinC_lcOoNDGuOx3sLH4hr3r20Db1zADHHgs&usqp=CAU",
-    tags: ["Html","Css","JavaScript"],
+    tags: ["Html", "Css", "JavaScript"],
     category: "Web app",
     github: "https://github.com/ajaygupta20f/Calculator.",
     webapp: "https://enchanting-croquembouche-f32bbf.netlify.app",
+
+
   },
+
+  
   // {
   //   id: 10,
   //   title: "Job Finding App",
@@ -415,7 +299,7 @@ export const projects = [
       " To-do list app, which is a productivity tool that helps users manage tasks and organize their daily activities. This project typically includes a user-friendly interface for creating, managing, and tracking tasks. Users can categorize tasks into different lists (e.g., work, personal) and assign priority levels.",
     image:
       "https://i.ytimg.com/vi/G0jO8kUrg-I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDUJHvTWGTt-PvyYETZJa7ze90owA",
-    tags: ["Html","Css","JavaScript"],
+    tags: ["Html", "Css", "JavaScript"],
     category: "web app",
     github: "https://github.com/ajaygupta20f/ToDo-List.",
     webapp: "https://ubiquitous-sundae-9d027f.netlify.app",

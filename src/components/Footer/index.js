@@ -89,7 +89,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Ajay Kumar Gupta</Logo>
+        <Logo>Chhotelal Patel</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -99,13 +99,13 @@ function Footer() {
           <NavLink href="#contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href="https://github.com/ajaygupta20f" target="display"><GithubIcon /></SocialMediaIcon>
-          <SocialMediaIcon href="https://x.com/AjayGupta124732" target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href="https://www.linkedin.com/in/ajay-gupta-758a79204/" target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="https://github.com/chhotelal2310" target="display"><GithubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="https://x.com/ChhotelalP76022" target="display"><TwitterIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="https://www.linkedin.com/in/chhotelal-patel-6106b0212/" target="display"><LinkedInIcon /></SocialMediaIcon>
           {/* <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon> */}
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Ajay Kumar Gupta. All rights reserved.
+          &copy; 2023 Chhotelal Patel. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
