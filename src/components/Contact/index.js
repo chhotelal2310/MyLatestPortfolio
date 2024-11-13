@@ -115,6 +115,10 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+  &:hover {
+  background: linear-gradient(225deg, hsla(271, 100%, 40%, 1) 0%, hsla(294, 100%, 40%, 1) 100%);
+}
 `;
 
 const Contact = () => {
@@ -138,7 +142,7 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+        {/* <ContactTitle>Email Me 🚀</ContactTitle> */}
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
