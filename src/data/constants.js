@@ -5,7 +5,7 @@ export const Bio = {
     "Recent B. Tech graduate in Computer Science and Engineering From Chhatrapati Shahu Ji Maharaj Unversity Kanpur. With a strong foundation in software development, algorithms, and problem-solving.  I'm passionate about web development and data structures and algorithms.I am proficient in Java and C++. I have honed my skills as a full-stack developer, crafting scalable web applications using React.js, Redux, and Firebase. I am eager to continue my journey as a versatile full-stack developer, where I can combine my passion for technology with my commitment to continuous improvement",
 
   github: "https://github.com/chhotelal2310",
-  resume: "https://drive.google.com/file/d/1aNVQVevHmFadl1SY2A1W70L01_vF8lKA/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1Ij4ervte8dPKhO_ZD9_FUx2Z3m31Jmps/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/chhotelal-patel-6106b0212/",
 };
 
@@ -135,7 +135,7 @@ export const experiences = [
     img: "https://pbs.twimg.com/profile_images/1488865883971899395/REyymiRX_400x400.jpg",
     role: "Software Intern",
     company: "Mobzway Technologies",
-    date: "November 2023 - February 2023",
+    date: "March 2024 - June 2024",
     desc: "During Internship  I am Collaborated on 5+ RESTful APIs using NodeJs and MongoDB and Achieved 98% code coverage, reducing post-release bugs by 35% and testing websites also Designed 3 APIs for User management that takes user details and stores them in the MongoDB.",
     skills: ["React.js", "Node.js", "Express.js", "MongoDB"],
   },
